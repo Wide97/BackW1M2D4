@@ -8,7 +8,9 @@ import marcowidesott.BackW1M2D4.services.PizzaService;
 import marcowidesott.BackW1M2D4.services.ToppingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MenuRunner implements CommandLineRunner {
 
     @Autowired
